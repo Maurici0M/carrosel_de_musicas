@@ -1,25 +1,165 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <!--Head Ficará todos os links de JS e CSS-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundação Bradesco - Site de exemplo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundação Bradesco - Site de exemplo</title>
+  <!--link da fonte de letra Poppins-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!---->
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./swiper/unpkg.com_swiper@8.1.6_swiper-bundle.min.css" />
+  <!---->
+
+  <!--Link BootStrap CSS-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./swiper.css">
+  <link rel="stylesheet" href="./footer.css">
+
+  <!--Script Swiper's JS-->
+  <script src="./swiper/unpkg.com_swiper@8.1.6_swiper-bundle.min.js" defer></script>
+
+  <!--Scripts (lembre de colocar 'defer')-->
+
+  <script src="./script.js" defer></script>
+  <script src="./tecnologia-page-script.js" defer></script>
+
 </head>
 
 <body>
 
-    <header>
-      <nav class="navbar_header">
-        
-      </nav>
-    </header>
+  <header>
 
-    <footer>
+    <nav>
+
+      <ul class="ul_container_navbar">
+        <li> <a target="_blank" href="https://grid-da-noticia.vercel.app/"> Veja meu outro site </a> </li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <div class="title_initial">
+      <h3>Seja feliz, e escute as músicas que preparei para você. 🎧</h3>
+    </div>
+
+    <div class="title_playlists">
+      <h3>Use as setinhas para ver mais músicas, é só clicar e ouvir! 😉</h3>
+      <!---->
+      <h3 class="text_alert_mobile">Use as setinhas para ver mais músicas, aperte em "Ouvir no navegador" e pronto! 😉</h3>
+    </div>
+
+    <!--Estrutura do Carrossel (reutilização do projeto Grid da Notícia - acesse em: https://grid-da-noticia.vercelapp/-->
+    <section class="container-notices">
       
-    </footer>
-    
+      <div class="slide-container swiper">
+        
+        <div class="slide-content">
+          
+          <div class="card-wrapper swiper-wrapper">
+
+            <!--Arquivos adicionados por JS-->
+
+          </div>
+
+        </div>
+
+        <!--Barras de navegação do carrosel-->
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress"></div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="container_sections_footer">
+
+      <section class="informacoes">
+
+        <div class="info_footer_informacoes">
+
+          <h1>Informações</h1>
+
+          <p>
+            Este é um site exemplo, criado com o único objetivo de testar novos conhecimentos e estratégias legais.
+            
+            <br>
+            <br>
+
+            Por isso, <strong> podem ocorrer certos erros caso você esteja, principalmente, acessando o site por um smartphone </strong> (embora eu esteja tentando deixá-lo o mais compatível possível, <strong></strong>lembre-se que é somente um projeto simples para testes</strong>).
+
+            <br>
+            <br>
+
+            Muito obrigado por ler!
+
+          </p>
+
+        </div>
+
+        <div class="info_footer_objetivos">
+
+          <h1>Objetivos</h1>
+
+          <p>
+            Testar o funcionamento do carrosel junto com arquivos de áudio, utilizando a incorporação do SoundCloud para sites.
+
+            <br>
+            <br>
+
+            Também, testar novos modelos de menu e footer, bem como, a utilização de cores e demais estilos que possam ser reutilizados futuramente.
+
+          </p>
+
+        </div>
+
+      </section>
+
+      <hr class="linha_footer">
+
+      <section class="contatos">
+
+        <H1>Maurici0M</H1>
+
+        <ul class="links_footer">
+
+          <li class="rede_social_1"> <a target="_blank" href="https://github.com/Maurici0M"> <i class="fab fa-github"></i> </a> </li>
+
+          <li class="rede_social_2"> <a target="_blank" href="https://www.linkedin.com/in/mauricio-marques-costa-994b25210/"> <i class="fab fa-linkedin-in"> </i> </a> </li>
+
+          <li class="rede_social_3"><a target="_blank" href="https://grid-da-noticia.vercel.app/"><i class="fa-solid fa-award"></i> </a> </li>
+
+        </ul>
+
+      </section>
+
+      <section class="creditos">
+        
+        <a target="_blank" href="https://translate.google.com.br/?hl=pt-BR&sl=auto&tl=pt&text=%E3%81%8C%E3%82%93%E3%81%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%EF%BC%81%20%3B)&op=translate"> <p>&copy; がんばりましょう！ 2024</p> </a>
+
+      </section>
+
+    </div>
+
+  </footer>
+
 </body>
+
 </html>
