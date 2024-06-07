@@ -39,6 +39,8 @@ footer {
     font-size: 13px;
     color: #ffffffef;
     
+    /*Para que o espaço em que ficará o texto, fique dividido igualmente entre os dois temas (informações e objetivos)*/
+    width: 50%;
 }
 
 .info_footer_informacoes>h1, .info_footer_objetivos>h1 {
