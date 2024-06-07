@@ -1,7 +1,9 @@
-/* Initialize Swiper */
-/*var swiper = new Swiper(".mySwiper", {
+// Carrosel - Código de funcionamento
+
+var swiper = new Swiper(".slide-content", {
     slidesPerView: "auto",
     spaceBetween: 30,
+    
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -12,7 +14,7 @@
         prevEl: ".swiper-button-prev"
     },
     autoplay: {
-        delay: 7340,
+        delay: 7340999999999,
         disableOnInteraction: false
     }, 
 
@@ -30,4 +32,4 @@
         }
     }
 
-  });*/
+  });
