@@ -1,39 +1,4 @@
-// Carrosel - Código de funcionamento(destivado)
-/*var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
-    spaceBetween: 20,
-    centeredSlides: true,
-    fade: 'true',
-    gragCursor: 'true',
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    },
-
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        
-        660: {
-            slidesPerView: 2,
-        },
-
-        950: {
-            slidesPerView: 3,
-        }
-    }
-
-});  */
+// Carrosel - Código de funcionamento
 
 var swiper = new Swiper(".slide-content", {
     slidesPerView: "auto",
