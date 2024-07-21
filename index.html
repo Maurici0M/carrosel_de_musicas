@@ -16,8 +16,12 @@
   <!---->
 
   <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="./swiper/unpkg.com_swiper@8.1.6_swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="./swiper/unpkg.com_swiper@8.1.6_swiper-bundle.min.css" /> -->
   <!---->
+
+  <!-- Link do ícones para navbar do Google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <!--Link FontAwesome CSS (para ícones do footer)-->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -31,20 +35,26 @@
   <link rel="stylesheet" href="./Sobre_o_site.txt">
 
   <!--Script Swiper's JS-->
-  <script src="./swiper/unpkg.com_swiper@8.1.6_swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+  <!-- <script src="./swiper/unpkg.com_swiper@8.1.6_swiper-bundle.min.js" defer></script> -->
 
   <!--Scripts (lembre de colocar 'defer')-->
 
   <script src="./scripts/index_page_script.js" defer></script>
   <script src="./scripts/script_carrosel.js" defer></script>
+  <script src="./scripts/black_light_mode.js" defer></script>
+  <script src="./scripts/musicas_aleatorias.js" defer></script>
+  
+  <noscript>Desculpe, seu navegador não é compatível com o JavaScript. <br> Por isso, alguns conteúdos não poderão ser visualizados.</noscript>
   
 
 </head>
 
 <body>
 
-  <!--Componente de Acessibilidade VLibras-->
-  <div vw class="enabled">
+  <!--Componente de Acessibilidade VLibras (enabled para ativar)-->
+  <div vw class="desabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
       <div class="vw-plugin-top-wrapper"></div>
@@ -62,9 +72,12 @@
 
       <ul class="ul_container_navbar">
         <li> <a href="#"> Carrosel Musical </a> </li>
-
-        <!--<li> <a target="_blank" href="https://grid-da-noticia.vercel.app/"> Meu Outro Site </a> </li> -->
       </ul>
+
+      <div class="btn_style">
+        <button class="btn" style="background: none;"><span class="material-symbols-outlined" style="font-size: 35px;">nights_stay</span></button>
+        
+      </div>
 
     </nav>
 
@@ -83,7 +96,7 @@
     </div>
 
     <!--Estrutura do Carrossel (reutilização do projeto Grid da Notícia - acesse em: https://grid-da-noticia.vercelapp/-->
-    <section class="container-notices">
+    <section class="container-carrosel-cards">
       
       <div class="slide-container swiper">
         
@@ -104,6 +117,11 @@
         <div class="autoplay-progress"></div>
 
     </section>
+
+   <!-- <div class="btn_style">
+      <button class="btn">Clique</button>
+    </div> -->
+
 
   </main>
 
