@@ -1,9 +1,9 @@
 // Carrosel - Código de funcionamento
 
 var swiper = new Swiper(".slide-content", {
-    slidesPerView: "auto",
-    spaceBetween: 30,
-    
+    slidesPerView: "3",
+    spaceBetween: 25,
+    rewind: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
