@@ -19,15 +19,11 @@ function shuffleArray(arrayCarrossel) {
     
     
     // Manipular elemento
+    //Novo modelo de aplicação do elemento de forma simplificada adicionado
+     
         carrosselScript.innerHTML = `
-    
-             ${arrayCarrossel[index].iFrame}
-            
-            <div class="copyright_credits" style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-            
-                 ${arrayCarrossel[index].a}
-            
-            </div>
+
+            ${arrayCarrossel[index].iFrame}
     
         `
     
@@ -41,4 +37,5 @@ function shuffleArray(arrayCarrossel) {
 
 const meuArray = arrayCarrossel;
 const arrayEmbaralhado = shuffleArray(meuArray);
+
 
