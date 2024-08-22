@@ -3,7 +3,7 @@
 // Controle de atualização do site
 
 const dados_da_ultima_att = document.querySelector('.atualizacao-da-pagina')
-dados_da_ultima_att.innerHTML = `Página Atualizada pela última vez em 21 de agosto de 2024 às 21:47`
+dados_da_ultima_att.innerHTML = `Página Atualizada pela última vez em 21 de agosto de 2024 às 21:58`
 
 //Arquivos de alimentação do carrosel - Músicas que serão mostradas
 
@@ -14,9 +14,9 @@ const arrayCarrossel = [
     },*/
     
     
-    /*{
+    {
         iFrame: '<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/678814035&color=%23d5b8bc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nataliacarreira" title="Natália Carreira" target="_blank" style="color: #cccccc; text-decoration: none;">Natália Carreira</a> · <a href="https://soundcloud.com/nataliacarreira/pertencer-ao-vivo" title="Pertencer (Ao Vivo)" target="_blank" style="color: #cccccc; text-decoration: none;">Pertencer (Ao Vivo)</a></div>'
-        },*/
+        },
 
     {
             iFrame: '<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/548156187&color=%23945c64&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lonelyintherain" title="Lonely in the Rain" target="_blank" style="color: #cccccc; text-decoration: none;">Lonely in the Rain</a> · <a href="https://soundcloud.com/lonelyintherain/dive-in" title="Dive In (feat. Freeless)" target="_blank" style="color: #cccccc; text-decoration: none;">Dive In (feat. Freeless)</a></div>'
