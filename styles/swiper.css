@@ -10,7 +10,7 @@
 
     /*margin-top: -28px;*/
     
-    margin-bottom: 25px;
+    padding-bottom: 35px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
   
@@ -35,139 +35,141 @@
     100%{background-position:0% 50%}
   }
 
-
-
   .slide-container {
     max-width: 1360px;
     width: 100%;
     background-position: center center;
     background-size: cover;
-    padding: 40px 0;
+    padding: 50px;
     z-index: 0;
   }
+
+  .swiper-wrapper{
+    /*Para que seja possível mostrar os créditos da música, sem que o nome fique "cortado".*/
+    margin-bottom: 25px;
+  }
+
+
   .card.swiper-slide.swiper-slide-next {
     transform: scale(1.05);
   }
 
 
-iframe {
-  border-radius: 20px 20px 12px 12px;
+  iframe {
+  border-radius: 20px 20px 0px 0px;
+  height: 400px;
 }
 
-.copyright_credits {
-  text-align: center;
-  border-radius: 8px;
+  .copyright_credits {
+    text-align: center;
+    border-radius: 8px;
 
-  background: linear-gradient(181deg, #3e2aae, #663fc8);
-  background-size: 400% 400%;
+    background: linear-gradient(181deg, #3e2aae, #663fc8);
+    background-size: 400% 400%;
 
-  -webkit-animation: nome_do_artista 30s ease infinite;
-  -moz-animation: nome_do_artista 30s ease infinite;
-  -o-animation: nome_do_artista 30s ease infinite;
-  animation: nome_do_artista 30s ease infinite;
-}
-
-@-webkit-keyframes nome_do_artista {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes nome_do_artista {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-o-keyframes nome_do_artista {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@keyframes nome_do_artista {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-
-
-
-.card.swiper-slide.swiper-slide-next>.copyright_credits {
-  background: linear-gradient(181deg, #2d4abd, #5166d9, #5068c8);
-  background-size: 600% 600%;
-
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  -o-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-o-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-
-
-
-
-.copyright_credits>a{
-  font-size: 1.2em;
-}
-
-
-  
-  .slide-content {
-    margin: 0 40px;
-    overflow: hidden;
+    -webkit-animation: nome_do_artista 30s ease infinite;
+    -moz-animation: nome_do_artista 30s ease infinite;
+    -o-animation: nome_do_artista 30s ease infinite;
+    animation: nome_do_artista 30s ease infinite;
   }
 
-  .card {
-    margin-top: 35px;
-    width: 380px;
-    /*height: 430px;*/
-   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-    margin: 1rem;
-    font-family: "Maven Pro", sans-serif;
+  @-webkit-keyframes nome_do_artista {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes nome_do_artista {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-o-keyframes nome_do_artista {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes nome_do_artista {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
 
-    transition: all 0.3s ease-out;
-    gap: 1rem;
 
-    border-radius: 15px;
+
+  .card.swiper-slide.swiper-slide-next>.copyright_credits {
+    background: linear-gradient(181deg, #2d4abd, #5166d9, #5068c8);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+  }
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+
+
+
+  .copyright_credits>a{
+    font-size: 1.2em;
+  }
     
-    margin: 1rem;
-}
+  .slide-content {
+      overflow: hidden;
+  }
 
-.card:hover {
-  transform: scale(1.02);
-}
-
-@media (max-width: 660px) {
-  .card {
-    margin: 0;
-    height: auto;
-    box-shadow: none;
     
+  .card {
+      margin-top: 35px;
+      width: 380px;
+      border-radius: 15px;
+
+      gap: 1rem;
+      transition: all 0.3s ease-out;    
+  }
+    
+  .card>div, .card>div>a {
+      color: #202020 !important;
+      font-weight: 900;
+      text-align: center;
+
+      background-color: #27bfc1;
+      border-radius: 25px;
   }
 
   .card:hover {
-    transform: none;
+    transform: scale(1.01);
   }
-}
 
+  @media (max-width: 660px) {
+    .card {
+      margin: 0;
+      height: auto;
+      box-shadow: none;
+      
+    }
 
-  
-
+    .card:hover {
+      transform: none;
+    }
+  }

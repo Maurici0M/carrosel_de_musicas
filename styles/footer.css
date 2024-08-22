@@ -52,6 +52,11 @@ footer {
     margin-top: 12px;
 }
 
+.atualizacao-da-pagina {
+    color: #fff;
+    font-weight: 700;
+  }
+
 .contatos {
     margin-top: 50px;
     display: flex;
